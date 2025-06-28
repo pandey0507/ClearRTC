@@ -107,19 +107,6 @@ export default function VideoMeetComponent() {
                 setScreenAvailable(false);
             }
 
-            // if (videoAvailable || audioAvailable) {
-            //     const userMediaStream = await navigator.mediaDevices.getUserMedia({ video: videoAvailable, audio: audioAvailable });
-            //     if (userMediaStream) {
-            //         window.localStream = userMediaStream;
-            //         if (localVideoref.current) {
-            //             localVideoref.current.srcObject = userMediaStream;
-            //         }
-            //     }
-            // }
-
-
-
-
             if (videoAvailable || audioAvailable) {
                 const userMediaStream = await navigator.mediaDevices.getUserMedia({ video: videoAvailable, audio: audioAvailable });
                 if (userMediaStream) {
@@ -127,14 +114,29 @@ export default function VideoMeetComponent() {
                     if (localVideoref.current) {
                         localVideoref.current.srcObject = userMediaStream;
                     }
-
-                    // ✅ Auto-join lobby after media access
-                    setAskForUsername(false);
-                    setVideo(videoAvailable);
-                    setAudio(audioAvailable);
-                    connect();
                 }
             }
+
+
+
+
+            // if (videoAvailable || audioAvailable) {
+            //     const userMediaStream = await navigator.mediaDevices.getUserMedia({ video: videoAvailable, audio: audioAvailable });
+            //     if (userMediaStream) {
+            //         window.localStream = userMediaStream;
+            //         if (localVideoref.current) {
+            //             localVideoref.current.srcObject = userMediaStream;
+            //         }
+
+            //         // ✅ Auto-join lobby after media access
+            //         setAskForUsername(false);
+            //         setVideo(videoAvailable);
+            //         setAudio(audioAvailable);
+            //         connect();
+            //     }
+            // }
+
+
 
         } catch (error) {
             console.log(error);
