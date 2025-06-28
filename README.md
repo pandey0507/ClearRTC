@@ -3,7 +3,7 @@
 A Zoom-like real-time video communication app built with MERN Stack.
 
 ## 💻 Tech Stack
-- *Frontend*: React.js(with HTML, CSS, JavaScript)
+- *Frontend*: React.js (with HTML, CSS, JavaScript)
 - *Backend*: Node.js + Express.js
 - *Database*: MongoDB Atlas
 - *WebRTC*: For real-time video calling
