@@ -18,4 +18,4 @@ A Zoom-like real-time video communication app built with MERN Stack.
 - Frontend: Vercel
 - Backend: Render
 
-## 🙌 Made with ❤ by [Balmukund Pandey](https://github.com/pandey0507)
+## 🙌 Made with ❤ by [Bal Mukund Pandey](https://github.com/pandey0507)
