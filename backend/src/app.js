@@ -23,6 +23,12 @@ app.use("/api/v1/users", userRoutes);
 const PORT = process.env.PORT || 8000;
 app.set("port", PORT);
 
+
+app.get("/api/test", (req, res) => {
+  res.send("✅ Backend working!");
+});
+
+
 // ✅ Correct URI with working credentials
 const MONGO_URI = 'mongodb+srv://balmukundp02:balmukund123@mukundzoom.d4hfxdk.mongodb.net/zoomApp?retryWrites=true&w=majority';
 
