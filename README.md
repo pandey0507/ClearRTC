@@ -15,7 +15,7 @@ A Zoom-like real-time video communication app built with MERN Stack.
 - Real-time Meeting Rooms
 
 ## 🌐 Deployment
-- Frontend: Vercel
+- Frontend:  Render
 - Backend: Render
 
 ## 🙌 Made with ❤ by [Bal Mukund Pandey](https://github.com/pandey0507)
